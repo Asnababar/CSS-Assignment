@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+
+
+    
+    }
+    .navbar{
+        width: 100%;
+        background-color: #550A35;
+        overflow: auto;
+    }
+    /*---------navbar links---------*/
+    
+    
+    .navbar a{
+        float:left;
+        text-align: center;
+        padding: 12px;
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+
+
+
+    }
+    .navbar a:hover{
+        background-color: palevioletred;
+    
+    }
+    @media screen and(max-width:500px) {
+        .navbar a{
+            float :none;
+            display :block;}
+    
+        }
+        th{
+            background: hotpink;
+            padding: 30px;
+            text-transform: uppercase;
+        }
+        .button{
+            border-radius: 8px;
+        }
+       .search {
+        height: 20px;
+        width: 150px;
+        margin-right: 350px;
+        float: right;
+ }
+ .class {
+    font-size: 13px;
+ }
